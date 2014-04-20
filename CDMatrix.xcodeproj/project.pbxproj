@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		455833F6A9A559C3A20F95FA /* CDWrappedGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 45583D72D559F4448D104400 /* CDWrappedGrid.m */; };
 		C9C8B4AC18D2051200344D94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C8B4AB18D2051200344D94 /* Foundation.framework */; };
 		C9C8B4AF18D2051200344D94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C8B4AE18D2051200344D94 /* main.m */; };
 		C9C8B4B318D2051200344D94 /* CDMatrix.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C9C8B4B218D2051200344D94 /* CDMatrix.1 */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4558313D99243A4D98619B59 /* CDWrappedGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDWrappedGrid.h; sourceTree = "<group>"; };
+		45583D72D559F4448D104400 /* CDWrappedGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDWrappedGrid.m; sourceTree = "<group>"; };
 		C9C8B4A818D2051200344D94 /* CDMatrix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CDMatrix; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C8B4AB18D2051200344D94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C9C8B4AE18D2051200344D94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -76,6 +79,8 @@
 				C9C8B4AE18D2051200344D94 /* main.m */,
 				C9C8B4B218D2051200344D94 /* CDMatrix.1 */,
 				C9C8B4B018D2051200344D94 /* Supporting Files */,
+				45583D72D559F4448D104400 /* CDWrappedGrid.m */,
+				4558313D99243A4D98619B59 /* CDWrappedGrid.h */,
 			);
 			path = CDMatrix;
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9C8B4AF18D2051200344D94 /* main.m in Sources */,
+				455833F6A9A559C3A20F95FA /* CDWrappedGrid.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

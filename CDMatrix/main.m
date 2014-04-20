@@ -7,16 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CDWrappedGrid.h"
 
 int main(int argc, const char * argv[])
 {
-
-    @autoreleasepool {
-        
-        // insert code here...
-        NSLog(@"Hello, World!");
-        
-    }
+    @autoreleasepool
+    {}
     return 0;
 }
-
